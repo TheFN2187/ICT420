@@ -31,7 +31,10 @@
                         <h3>OPNsense firewall and router</h3>
                     </header>
                     <p>
-                        This project helped me get a better understanding of things such as VLAN segmentation, firewall logic, and VPN implementation.
+                        This project helped me get a better understanding of things such as VLAN segmentation, firewall logic, and VPN implementation. 
+                        Through this project, I have set up multiple VLANs on my network, one for network management, one for user devices, one for IOT devices, 
+                        and one for guests' devices. I have created a tailscale network a.k.a. 'tailnet' to be able to access my services remotely without port 
+                        forwarding. By doing this I am keeping my network safe from unwanted connections.
                     </p>
                 </section>
 
@@ -44,6 +47,20 @@
                         set up services in virtual machines and containers with high availability so that if one node in the cluster goes down due to power loss,
                         for example, users experience little to no interruptions with their services.
                     </p>
+                </section>
+
+                <section>
+                    <header>
+                        <h3>Custom Built Network Attached Storage (NAS)</h3>
+                        <p>
+                            I originally wanted to do this project so that I could have a NAS that could hold as mnay drives as some of the larger mass-produced NAS 
+                            systems on the market without spending hundereds of dollars for a system with no drives. I found a desktop case with the capacity for 10 3.5" 
+                            hard drives, a cheap pentium II, RAM, and a compatible motherboard. Then using an extra power supply I had lying around, I was able to build a 
+                            NAS with the capacity for 10 drives. Currently there are 5 4TB drives running in RAID 5 which gives about 15TB of available capacity. I use this 
+                            mainly to store backups for my Proxmox VMs and containers, models I create, code I've written, school work, any photos or videos, and anything else 
+                            I want to be backed up and safe.
+                        </p>
+                    </header>
                 </section>
             </article>
         </main>
