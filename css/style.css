@@ -1,0 +1,23 @@
+body {
+    background-color: #CCFF66;
+}
+
+.directory {
+    background-color: #0Bf49B;
+    color: #5A0B8E;
+    font-size: 1.2rem;
+}
+h2 {
+    background-color: #0Bf49B;
+    color: #5A0B8E;
+}
+h3 {
+    background-color: #0Bf49B;
+    color: #5A0B8E;
+}
+h1 {
+    background-color: #10C634;
+    color: #503262;
+    font-size: 2rem;
+}
+
