@@ -1,5 +1,12 @@
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: #CCFF66;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 1rem;
+    line-height: 1.4;
 }
 
 .directory {
@@ -10,15 +17,20 @@ body {
 h2 {
     background-color: #0Bf49B;
     color: #5A0B8E;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 h3 {
     background-color: #0Bf49B;
     color: #5A0B8E;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 h1 {
     background-color: #10C634;
     color: #503262;
     font-size: 2rem;
+    font-weight: 800;
 }
 
 main {
@@ -40,4 +52,5 @@ p {
     border: 2px solid black;
     margin: 0.5rem;
     padding: 0.5rem;
+    text-indent: 25px;
 }
