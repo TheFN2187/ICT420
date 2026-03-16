@@ -7,6 +7,7 @@ body {
     font-family: Garamond, "Times New Roman", serif;
     font-size: 1rem;
     line-height: 1.4;
+    width: 100%;
 }
 
 .directory {
@@ -37,7 +38,7 @@ main {
     padding: 10px;
     border: 5px solid black;
     margin: auto;
-    width: 1500px;
+    width: 80%;
 }
 
 section {
@@ -53,4 +54,10 @@ p {
     margin: 0.5rem;
     padding: 0.5rem;
     text-indent: 25px;
+}
+
+picture {
+    width: 90%;
+    margin: auto;
+    object-fit: fill;
 }
