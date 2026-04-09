@@ -1,3 +1,6 @@
+/*The code below changes the website to rearrange it and style it based on
+chosen colors and settings*/
+
 html {
     font-size: 100%;
 }
@@ -12,6 +15,9 @@ body {
     margin: 0;
 }
 
+/*This class was created so the directory menu could be styled
+seperately from other similar elements*/
+
 .directory {
     background-color: #0Bf49B;
     color: #5A0B8E;
@@ -22,6 +28,9 @@ body {
     list-style-position: inside;
     list-style-type: none;
 }
+
+/*This code sets the styles for the different header sizes used in the site*/
+
 h2 {
     background-color: #0Bf49B;
     color: #5A0B8E;
@@ -41,6 +50,8 @@ h1 {
     font-weight: 800;
 }
 
+/*Code for main is an example of a flexbox configuration*/
+
 main {
     display: flex;
     gap: 10px;
@@ -54,6 +65,8 @@ section {
     border: 3px solid black;
 }
 
+/*The code below sets up the main and secondary section classes
+to organize pages in a 2 column layout*/
 .main_section {
     width: clamp(320px, 40%, 1000px);
 }
@@ -63,14 +76,14 @@ section {
 }
 
 p {
-    border: 2px solid black;
+    border: 3px double black;
     margin: 0.5rem;
     padding: 0.5rem;
     text-indent: 25px;
 }
 
 picture {
-    display: block;
+    display: flex;
     width: 90%;
     margin: auto;
 }
@@ -78,6 +91,6 @@ picture {
 picture img {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: flex;
     margin: auto;
 }
